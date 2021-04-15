@@ -7,7 +7,6 @@
 
 .container {
     width: 100%;
-    background: rgb(212, 212, 212);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -34,7 +33,9 @@
 h1 {
     font-size: 3em;
 }
-
+.articlesTodos {
+    display: flex;
+}
 .sectionOne {
     width: 60%;
 }
@@ -69,9 +70,11 @@ hr {
 }
 .sectionTwo {
     width: 18%;
+    padding: 5px;
 }
 
 .sectionThree {
     width: 18%;
+    padding: 5px;
 }
 
